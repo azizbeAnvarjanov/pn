@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --blavk: #333;
+    --white: #fff;
+    --darks:  rgb(113, 187, 150);
+}
+.list{
+    height: 100vh;
+}
+#header{
+     border-top: 2px solid var(--darks);
+     position: relative;
+}
+.box i{
+    color: var(--darks);
+}
+.contener{
+    width: 70%;
+    margin: auto;
+}
+
+.box  .hurd{
+    color:var(--blavk);
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 24px;
+    padding-top: 22px;
+}
+
+.garr,li{
+    float: right;
+    display: inline;
+    
+}
+
+.dark a{
+    color: var(--white);
+}
+
+.garr,li,a{
+    padding: 5px 5px;
+    padding-left: 6px;
+    margin-top: 10px;
+    color: var(--white);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.id{
+    text-align: center;
+    background-image: url(not2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;   
+    color: var(--white); 
+    background-attachment: fixed;
+    
+}
+#tim{
+   
+   padding-top: 20px;
+
+}
+.rang h1{
+    padding-top: 80px;
+}
+.rang p{
+    width: 40%;
+    margin: auto;
+}
+.rang{
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 40vh;
+}
+.rang button{
+    margin: 10px;
+    padding: 10px 20px ;
+    background-color: var(--darks);
+    border: 0;
+    color: var(--white);
+}
+button:hover{
+    background-color: var(--white);
+    color: var(--blavk);
+}
+.object{
+    text-align: center;
+    padding: 20px;
+}
+.ssi i{
+    font-size: 25px;
+    padding-top: 30px;
+    color: rgb(253, 249, 17);
+}
+.ssi{
+    float: left;
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid var(--blavk);
+    height: 40vh;
+    color: var(--white);
+}
+.bosh{
+    background-color: var(--darks);
+    height: 40vh;
+   
+}
+.ssi button{
+        padding: 7px 30px;
+        background-color: var(--blavk);
+        border: 0;
+        border-radius: 8px;
+        color: var(--white);
+}
+.ssi button:hover{
+    background-color: var(--white);  
+    border: 2px solid var(--blavk) ;
+    color: var(--blavk);
+}
+.par{
+    float: left;
+    width: 70%;
+}
+.parf{
+    float: left;
+    width: 30%;
+}
+.parf i{
+    padding: 0 20px 0 0;
+}
+.par button{
+    padding: 10px 20px ;
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--darks);
+    color: var(--white);
+    border: 2px solid var(--darks);
+    margin-bottom: 10px;
+    }
+.par button:hover{
+    background-color:  var(--white);
+    color: black;
+    border: 2px solid  var(--darks);
+}
+.parf p{
+    padding: 10px;
+    background-color:  var(--white);
+    margin: 5px;
+}
+.clr{
+    clear: both;
+}
+#ima{
+    background-image: url(/uhy_gradient_1.jpg);
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    height: 40vh;
+    background-attachment: fixed;
+}
+.lol{
+    background: rgba(0, 0, 0, 0.527);
+    height: 40vh;
+}
+.div{
+    float: left;
+    width: 25%;
+    height: 40vh;
+    text-align: center;
+    color:  var(--white);
+}
+.div i{
+    color:  var(--darks);
+    font-size: 90px;
+    margin: 10px;
+   margin-top: 70px;
+}
+.pol{
+    text-align: center;
+    padding: 20px;
+    
+}
+.ohiri{
+    text-align: center;
+    background-color: var(--darks);
+    height: 20vh;
+    padding-top: 36px;
+    color:  var(--white);
+}
+.ohiri i{
+    margin: 5px;
+    font-size: 30px;
+    color:  var(--white);
+}
+.ohiri i:hover{
+    color:  var(--blavk);
+}
+span{
+    border-bottom: 1px solid  var(--white);
+}
+.garr i{
+    display: none;
+}
+
+.themeSwith
+{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--blavk);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dark
+{
+    background-color:var(--blavk);
+    color:var(--white);
+}
+@media only screen and (max-width: 800px){
+    .garr a{
+        display: none;
+    }
+    .garr i{
+        display: block;
+    }
+    .contener{
+        width: 90%;
+        margin: auto;
+    }
+    .rang {
+        font-size: 8px;
+        height: 30vh;
+    }
+    .id{
+        height: 30vh;
+    }
+    .rang p{
+        width: 100%;
+    }
+    .object{
+        font-size: 8px;
+    }
+    .icp{
+        font-size: 8px;
+    }
+    .lol{
+        height: 40vh;   
+    }
+    .pol{
+      width: 100%;
+      height: 30vh;
+      text-align: center ; 
+    }
+    .bosh{
+        background-color: var(--darks);
+        height: 140vh;
+       
+    }
+   
+    .ssi {
+        float: left;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.144);
+        border-right: none ;
+        height: 35vh;
+        color: var(--white);
+        background-color: var(--darks);
+        }
+        .par{
+            width: 100%;
+        }
+        .parf{
+            width: 100%;
+        }
+        .div{
+            width: 50%;
+            height: 15vh;
+        }
+        .div i{
+            font-size: 40px;
+           
+        }
+        .ofir{
+            width: 100%;
+            font-size: 10px;
+        }
+    }
